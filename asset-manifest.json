@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/wineapp/static/css/main.6a8c1bd7.css",
+    "main.js": "/wineapp/static/js/main.e954f25e.js",
+    "static/media/JauriaLaAzul.png": "/wineapp/static/media/JauriaLaAzul.122ca979710f1fa13636.png",
+    "static/media/CorderoMalbec.png": "/wineapp/static/media/CorderoMalbec.06cd07270cf5b933c63b.png",
+    "static/media/DuriguttiMalbec.png": "/wineapp/static/media/DuriguttiMalbec.51b8fdd528b705317b9c.png",
+    "static/media/Clos7.png": "/wineapp/static/media/Clos7.05ff3d0986b5728b86f7.png",
+    "static/media/PuroOro.png": "/wineapp/static/media/PuroOro.7744781114ed56ef5e9a.png",
+    "static/media/Malbec.png": "/wineapp/static/media/Malbec.4b36738a03814729f32b.png",
+    "index.html": "/wineapp/index.html",
+    "main.6a8c1bd7.css.map": "/wineapp/static/css/main.6a8c1bd7.css.map",
+    "main.e954f25e.js.map": "/wineapp/static/js/main.e954f25e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a8c1bd7.css",
+    "static/js/main.e954f25e.js"
+  ]
+}
