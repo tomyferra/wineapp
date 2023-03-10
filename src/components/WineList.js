@@ -1,5 +1,6 @@
 import Wine from './Wine';
 import {Wines} from './WineData';
+import '../stylesheets/Wines.css';
 
 
 function WineList() {
@@ -7,9 +8,9 @@ function WineList() {
     <div className="winelist container-fluid">
       <div className="row">
         <div className="container">
-          <div className="row coins-value">
+          <div className="row wines-value">
             {Wines.map( (wine) => (
-                <div className="col col-sm-4 coins-style">
+                <div className="col col-sm-4 wines-style">
                   <Wine name={wine.Name} winery={wine.Winery} description={wine.Description} year={wine.Year} variety={wine.Variety} totalratings={wine.Totalqualifications} avgratings={wine.Avgqualifications} region={wine.Region} imgpath={wine.Image} totalscore={wine.Totalscore}/>
                 </div>
               ))}
