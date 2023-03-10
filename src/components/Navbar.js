@@ -34,7 +34,7 @@ function NavigationBar () {
         <div className="collapse navbar-collapse" id="navbar-toggler">
           <a className="navbar-brand" href="#home">Wine App</a>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
-            <div class="dropdown nav-item">
+            {/* <div class="dropdown nav-item">
               <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Varietales
               </button>
@@ -43,7 +43,7 @@ function NavigationBar () {
                 <li><a class="dropdown-item" href="#">Petit Verdot</a></li>
                 <li><a class="dropdown-item" href="#">Syrah</a></li>
               </ul>
-            </div>
+            </div> */}
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href='#SocialMedia'>Social Media</a>
             </li>

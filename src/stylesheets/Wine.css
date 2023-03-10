@@ -2,6 +2,12 @@
   color: black;
 }
 
+.imagenModal{
+  height: 250px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
 .imagen{
   display: flex;
   justify-content: center;
@@ -14,24 +20,27 @@
   display: flex;
   justify-content: center;
 }
-
+/* 
 @media screen and (max-width: 767px) {
   .card-img-start{
     max-width: 50%;
   }
 }
+
 @media screen and (min-width: 767px) and (max-width: 991px) {
   .card-img-start{
     max-height: 50vh;
     width: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .card-img-start-modal{
-    max-width: 30%;
-    height: auto;
+
+    max-height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-}
+} */
+

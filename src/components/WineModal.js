@@ -18,12 +18,12 @@ function WineModal ({ setIsOpen, name, winery, description, year, variety, total
   };
 
   return(
-    <div class="container my-5">
-      <div class="card row flex-row">
-          <div className="imagen">
-            <img class=" col-lg-4 card-img-start-modal img-fluid p-0" src={imgpath} alt="wine cap" />  
+    <div class="container modal-container">
+      <div class="card row flex-row align-items-center modal-container">
+          <div className="col-lg-3 imagenModal">
+            <img class=" card-img-start-modal img-fluid p-0" src={imgpath} alt="wine cap" />  
           </div>
-          <div class="col-lg-8 card-body">
+          <div class="col col-lg-9 card-body">
             <h1 class="card-title">{name}</h1>
             <p class="card-text">{winery}</p>
             <Rating name="half-rating" defaultValue={avgratings} precision={0.5} 
